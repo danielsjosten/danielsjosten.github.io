@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<h1>{{ page.title | default: "Senaste inlägg" }}</h1>
+
+<ul class="post-list">
+  {%- for post in site.posts -%}
+    <li class="post-list-item">
+      <a class="title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span class="meta">· {% include sv_date.html date=post.date %}</span>
+      {%- if post.excerpt -%}
+        <p class="excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
+      {%- endif -%}
+    </li>
+  {%- endfor -%}
+</ul>

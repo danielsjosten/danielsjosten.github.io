@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<article class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <p class="post-meta">
+    Publicerat:
+    {% include sv_date.html date=page.date %}
+  </p>
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>

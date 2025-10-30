@@ -1,0 +1,39 @@
+title: "Daniel Sjösten"
+description: "Blogg & anteckningar"
+language: sv
+timezone: Europe/Stockholm
+
+# Om repo = danielsjosten.github.io → url: https://danielsjosten.github.io och baseurl: ""
+# Om repo = my-site → url: https://danielsjosten.github.io och baseurl: "/my-site"
+url: "https://danielsjosten.github.io"
+baseurl: "/my-site"   # sätt "" om repo = danielsjosten.github.io
+
+theme: minima
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Sidor i toppmenyn (minima)
+header_pages:
+  - om.md
+  - kontakt.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO/metadata
+author:
+  name: "Daniel Sjösten"
+  email: "daniel.sjosten@svenskaspel.se"
+
+# Permalänkar
+permalink: /blogg/:year/:month/:day/:title/
+
+# Build
+exclude:
+  - README.md
