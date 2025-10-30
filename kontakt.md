@@ -4,4 +4,4 @@ title: "Kontakt"
 permalink: /kontakt/
 ---
 
-Du når mig på **daniel.sjosten@svenskaspel.se**.
+Du når mig på **mail**.
