@@ -6,7 +6,7 @@ timezone: Europe/Stockholm
 # Om repo = danielsjosten.github.io → url: https://danielsjosten.github.io och baseurl: ""
 # Om repo = my-site → url: https://danielsjosten.github.io och baseurl: "/my-site"
 url: "https://danielsjosten.github.io"
-baseurl: "/my-site"   # sätt "" om repo = danielsjosten.github.io
+baseurl: ""   # sätt "" om repo = danielsjosten.github.io
 
 theme: minima
 
